@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "seed": "node backend/seeders/productsSeeder.js",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  }
+}
